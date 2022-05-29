@@ -1,0 +1,97 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+
+body{
+    background-color:rgba(89, 175, 168, 0.699);
+    font-family: 'Lora', serif;
+    margin: 0; 
+} 
+
+#titolo{
+    margin-left: 0;
+    font-size:35px;
+    font-family:sans-serif,'Roboto';
+    text-align:left;    
+    color: white;
+} 
+
+.logo{
+    width:30px;
+    height:30px;
+} 
+
+#links{
+    color:black;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 0;
+    font-family: 'sans-serif','Roboto';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor:pointer;
+    text-align: right;
+}
+
+#links a {
+  color:white;
+  margin:15px;
+}
+
+ #links a.button{
+   padding:10px;
+   margin:2px;
+   border:2px solid black;
+   border-radius:100px;
+}
+
+#links a.button:hover {         /*quando ci passi il mouse sopra */ 
+    background-color: white;
+    color: black;
+
+}
+
+h1{
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    height: 2px;
+    
+}
+
+.flex-container {
+    display:flex;
+    justify-content: flex-start;
+    padding:2px;
+    align-items: center;
+}
+
+.flex-item{
+    margin:2px;
+    border:2px solid black;
+    background-color: #f4f4f4;
+    width: 200px;
+    height: 200px;
+}
+
+.flex-item img{
+    width: 200px;
+    height: 200px;
+}
+
+nav{
+    display:flex;
+    background-color: black;
+    width: 100%;
+}
+
+iframe {
+    border-radius:12px;
+    width:100%;
+    height:380px; 
+    border:none;
+}
+
+#embed_container{
+    display:flex;
+    justify-content: right;
+    width: 80%;
+}
